@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, iniyial-scale=1.0">
+	<title>Form</title>
+</head>
+<body>	
+	<form>
+		<label for="firstname">Firstname: </label>
+		<input id="firstname" type="text"><br>
+		<label for="name">Name: </label>
+		<input id="name" type="text"><br>
+		<label for="age">Age: </label>
+		<input id="age " type="number" min="1"><br>
+		<label for="phone">Phone: </label>
+		<input id="phone" type="tel"><br>
+		<label for="email">Email: </label>
+		<input id="email" type="email"><br>
+		<label for="student">Student at 42?: </label>
+		<input id ="student" type="checkbox"><br>
+		<div>
+			<label for="gen_m" >Male</label>
+			<input id="gen_m" name="gender" type="radio" checked value="Male">
+			<label for="gen_f" >Female</label>
+			<input id="gen_f" name="gender" type="radio" value="Female">
+			<label for="oth" >Other</label>
+			<input id="oth" name="gender" type="radio" value="Other">
+		</div>
+		<button onclick="displayFormContents()">RUN</button>
+	</form>
+
+	<script src = "popup.js"></script>
+</body>
+</html>		
